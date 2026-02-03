@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Project Timeline</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+}
+
+.container {
+    width: 800px;
+    margin: 40px auto;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.timeline {
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.task {
+    width: 180px;
+    font-size: 14px;
+}
+
+.bar {
+    flex: 1;
+    height: 16px;
+    background: #e5e7eb;
+    border-radius: 10px;
+    position: relative;
+}
+
+.fill {
+    height: 100%;
+    background: #3b82f6;
+    border-radius: 10px;
+}
+
+/* Widths represent duration */
+.rnd { width: 15%; }
+.design { width: 20%; margin-left: 5%; }
+.code { width: 65%; margin-left: 20%; }
+.testing { width: 20%; margin-left: 65%; }
+.docs { width: 80%; margin-left: 10%; }
+
+.months {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-left: 180px;
+    margin-bottom: 10px;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+    <h2>TIMELINE</h2>
+    <p>The timeline of the overall project can be represented using the Gantt chart below.</p>
+
+    <div class="months">
+        <span>OCTOBER</span>
+        <span>NOVEMBER</span>
+        <span>DECEMBER</span>
+    </div>
+
+    <div class="timeline">
+        <div class="row">
+            <div class="task">R & D of Website</div>
+            <div class="bar"><div class="fill rnd"></div></div>
+        </div>
+
+        <div class="row">
+            <div class="task">Design & Analysis</div>
+            <div class="bar"><div class="fill design"></div></div>
+        </div>
+
+        <div class="row">
+            <div class="task">Coding & Testing</div>
+            <div class="bar"><div class="fill code"></div></div>
+        </div>
+
+        <div class="row">
+            <div class="task">Final Testing</div>
+            <div class="bar"><div class="fill testing"></div></div>
+        </div>
+
+        <div class="row">
+            <div class="task">Documentation</div>
+            <div class="bar"><div class="fill docs"></div></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
