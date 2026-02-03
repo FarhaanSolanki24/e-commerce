@@ -1,16 +1,82 @@
-# React + Vite
+🛒 E-Commerce Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional, responsive e-commerce web application built using HTML, CSS, and JavaScript, powered by the Platzi Fake Store API. This project provides a seamless shopping experience with user authentication, role-based access, dynamic product display, and advanced e-commerce functionalities.
 
-Currently, two official plugins are available:
+🔹 Features
+User Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+User Authentication
 
-## React Compiler
+Register and login functionality.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Role-based access: Admin and Normal User.
 
-## Expanding the ESLint configuration
+Product Browsing
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Dynamic product listing fetched from Platzi Fake Store API.
+
+Search functionality to find products quickly.
+
+Category filtering to view products by categories.
+
+Sorting by price, popularity, or rating.
+
+Product Details
+
+View single product details in a modal or dedicated page.
+
+Cart Management
+
+Add products to the cart.
+
+Increase or decrease item quantity.
+
+Remove items from cart.
+
+View cart total dynamically.
+
+Pagination
+
+Browse through products with page navigation.
+
+Responsive Design
+
+Fully responsive for desktop, tablet, and mobile devices.
+
+Admin Features
+
+Admin Dashboard
+
+View all registered users.
+
+Full access to manage products (add, edit, delete if API allows).
+
+Monitor user activities.
+
+Additional Features
+
+Error Handling
+
+Graceful error messages for API or user input errors.
+
+Local Storage Integration
+
+Persist user authentication and cart items across sessions.
+
+UI/UX Enhancements
+
+Modern and clean design.
+
+Smooth navigation and user-friendly interactions.
+
+Responsive layout for all devices.
+
+🔹 Technologies Used
+
+Frontend: HTML, CSS, JavaScript (Vanilla JS)
+
+API: Platzi Fake Store API
+
+Storage: LocalStorage (for authentication & cart persistence)
+
+Design: Fully responsive UI with modern styling and animations
